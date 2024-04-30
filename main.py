@@ -1,0 +1,1 @@
+ffmpeg -re -stream_loop -1 -i F:\highlights.mp4 -vcodec copy -c:a aac -b:a 160k -ar 44100 -strict -2 -f flv "rtmp://mil02.contribute.live-video.net/app//live_1074060596_MSNFaL6NeuimY05Evf4JNrACzx6kDW"
